@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\QuanLySinhVien-Database-First.props" />
+</Project>

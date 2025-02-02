@@ -1,0 +1,44 @@
+﻿@model waHoadon.Models.Hanghoa
+
+@{
+    ViewData["Title"] = "Edit_HangHoa";
+}
+
+<h1>Edit_HangHoa</h1>
+
+<h4>Hanghoa</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit_HangHoa">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Mahang" />
+            <div class="form-group">
+                <label asp-for="Tenhang" class="control-label"></label>
+                <input asp-for="Tenhang" class="form-control" />
+                <span asp-validation-for="Tenhang" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dvt" class="control-label"></label>
+                <input asp-for="Dvt" class="form-control" />
+                <span asp-validation-for="Dvt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dongia" class="control-label"></label>
+                <input asp-for="Dongia" class="form-control" />
+                <span asp-validation-for="Dongia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,63 @@
+﻿@model QuanLySinhVien_Database_First.Mymodel.CHocVien
+
+@{
+    ViewData["Title"] = "FormSuaHV";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Sửa Học Viên</h1>
+
+<div>
+    <a asp-action="Index" class=" btn btn-primary">Trở về</a>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SuaHV">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Mshv" />
+            <div class="form-group">
+                <label asp-for="Mshv" class="control-label"></label>
+                <input asp-for="Mshv" class="form-control" readonly="readonly"/>
+                <span asp-validation-for="Mshv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tenhv" class="control-label"></label>
+                <input asp-for="Tenhv" class="form-control" />
+                <span asp-validation-for="Tenhv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ngaysinh" class="control-label"></label>
+                <input asp-for="Ngaysinh" class="form-control" type="date"/>
+                <span asp-validation-for="Ngaysinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phai" class="control-label"></label>
+               @*  <input asp-for="Phai" class="form-control" />
+                <span asp-validation-for="Phai" class="text-danger"></span> *@
+                <select asp-for="Phai" class="form-select">
+                    <option value="True">Nam</option>
+                    <option value="False">Nữ</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Malop" class="control-label"></label>
+              @*   <input asp-for="Malop" class="form-control" />
+                <span asp-validation-for="Malop" class="text-danger"></span> *@
+                <select asp-for="Malop" asp-items="@ViewBag.DSLop" class="form-select">
+                </select>
+            </div> <br />
+           
+            <div class="form-group" method="post">
+                <input type="hidden" value="@Model.Mshv" name="mshv" />
+                <input type="submit" value="Sửa" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

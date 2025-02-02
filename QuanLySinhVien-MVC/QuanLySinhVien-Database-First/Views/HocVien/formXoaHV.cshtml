@@ -1,0 +1,62 @@
+﻿@model QuanLySinhVien_Database_First.Mymodel.CHocVien
+
+@{
+    ViewData["Title"] = "formXoaHV";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Thông tin Sinh Viên cần xóa</h1>
+
+<a asp-action="Index" class="btn btn-primary" style="color:white">Trờ về trang chủ</a>
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Mshv)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Mshv)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Tenhv)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Tenhv)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ngaysinh)
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Ngaysinh.Value.ToShortDateString()
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Phai)
+        </dt>
+        <dd class="col-sm-10">
+            @(Model.Phai == true ? "Nam" : "Nữ")
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Malop)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Malop)
+        </dd>
+
+    </dl>
+</div>
+@if ((bool)ViewBag.flag == true)
+{
+    <div>
+
+        <form asp-action="XoaHV" method="post">
+            <input type="hidden" value="@Model.Mshv" name="mshv" />
+            <input type="submit" value="Xóa" class="btn btn-danger" /> |<br />
+
+        </form>
+    </div>
+
+
+}
+else
+{
+    <h1>Bạn Không Thể Xóa Học Viên Này!</h1>
+}

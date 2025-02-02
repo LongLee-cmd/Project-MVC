@@ -1,0 +1,15 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<p class="text-danger">Bị lỗi khi xóa!!!</p>
+<p class="text-danger">Bị lỗi ràng buộc về khóa ngoại nên không thể xóa được!!!</p>
+
+@if (Model.ShowRequestId)
+{
+    <p>
+        <strong>Request ID:</strong> <code><h1>@Model.RequestId</h1></code>
+    </p>
+}
+

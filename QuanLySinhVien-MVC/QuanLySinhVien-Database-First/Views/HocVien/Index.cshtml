@@ -1,0 +1,69 @@
+﻿@model IEnumerable<QuanLySinhVien_Database_First.Mymodel.CHocVien>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Danh Sach Học Viên</h1>
+
+<p>
+    <a asp-action="FormThemHV" class="btn btn-primary">Thêm Học Viên</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Mshv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tenhv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ngaysinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Malop)
+            </th>
+           
+            <th>
+                Tên Lớp
+            </th>
+            
+        
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mshv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tenhv)
+            </td>
+            <td>
+                @item.Ngaysinh.Value.ToShortDateString()
+            </td>
+            <td>
+               @(item.Phai==true?"Nam":"Nữ")
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Malop)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MalopNavigation.Tenlop)
+            </td>
+               
+            <td>
+                    <a asp-action="FormSuaHV" class="btn btn-primary" asp-route-id="@item.Mshv">Sửa</a>
+
+                    <a asp-action="formXoaHV" class="btn btn-primary" asp-route-id="@item.Mshv" style="background :hotpink ">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

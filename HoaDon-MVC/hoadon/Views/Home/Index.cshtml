@@ -1,0 +1,48 @@
+﻿@model IEnumerable<waHoadon.Models.Hoadon>
+
+@{
+    ViewData["Title"] = "List_HoaDon";
+}
+
+<h1>List_HoaDon</h1>
+
+<p>
+    <a asp-action="Create_HoaDon">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ngaylaphd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sohd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tenkh)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ngaylaphd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sohd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tenkh)
+                </td>
+                <td>
+                    <a asp-action="Edit_HoaDon" asp-route-id="@item.Sohd">Edit</a> |
+                    <a asp-action="Details_HoaDon" asp-route-id="@item.Sohd">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Sohd">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

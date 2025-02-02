@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\H\u1ECDc T\u1EADp\\L\u1EADp Tr\u00ECnh Windows\\QuanLySinhVien-Database-First\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81508C99-8EEA-4A02-B448-09A8C804143F}|QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First.csproj|c:\\h\u1ECDc t\u1EADp\\l\u1EADp tr\u00ECnh windows\\quanlysinhvien-database-first\\quanlysinhvien-database-first\\controllers\\hocviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81508C99-8EEA-4A02-B448-09A8C804143F}|QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First.csproj|solutionrelative:quanlysinhvien-database-first\\controllers\\hocviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81508C99-8EEA-4A02-B448-09A8C804143F}|QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First.csproj|c:\\h\u1ECDc t\u1EADp\\l\u1EADp tr\u00ECnh windows\\quanlysinhvien-database-first\\quanlysinhvien-database-first\\views\\hocvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81508C99-8EEA-4A02-B448-09A8C804143F}|QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First.csproj|solutionrelative:quanlysinhvien-database-first\\views\\hocvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81508C99-8EEA-4A02-B448-09A8C804143F}|QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First.csproj|c:\\h\u1ECDc t\u1EADp\\l\u1EADp tr\u00ECnh windows\\quanlysinhvien-database-first\\quanlysinhvien-database-first\\views\\hocvien\\formxoahv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81508C99-8EEA-4A02-B448-09A8C804143F}|QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First.csproj|solutionrelative:quanlysinhvien-database-first\\views\\hocvien\\formxoahv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81508C99-8EEA-4A02-B448-09A8C804143F}|QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First.csproj|c:\\h\u1ECDc t\u1EADp\\l\u1EADp tr\u00ECnh windows\\quanlysinhvien-database-first\\quanlysinhvien-database-first\\views\\hocvien\\formsuahv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81508C99-8EEA-4A02-B448-09A8C804143F}|QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First.csproj|solutionrelative:quanlysinhvien-database-first\\views\\hocvien\\formsuahv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "formXoaHV.cshtml",
+              "DocumentMoniker": "C:\\H\u1ECDc T\u1EADp\\L\u1EADp Tr\u00ECnh Windows\\QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First\\Views\\HocVien\\formXoaHV.cshtml",
+              "RelativeDocumentMoniker": "QuanLySinhVien-Database-First\\Views\\HocVien\\formXoaHV.cshtml",
+              "ToolTip": "C:\\H\u1ECDc T\u1EADp\\L\u1EADp Tr\u00ECnh Windows\\QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First\\Views\\HocVien\\formXoaHV.cshtml",
+              "RelativeToolTip": "QuanLySinhVien-Database-First\\Views\\HocVien\\formXoaHV.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T09:37:14.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormSuaHV.cshtml",
+              "DocumentMoniker": "C:\\H\u1ECDc T\u1EADp\\L\u1EADp Tr\u00ECnh Windows\\QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First\\Views\\HocVien\\FormSuaHV.cshtml",
+              "RelativeDocumentMoniker": "QuanLySinhVien-Database-First\\Views\\HocVien\\FormSuaHV.cshtml",
+              "ToolTip": "C:\\H\u1ECDc T\u1EADp\\L\u1EADp Tr\u00ECnh Windows\\QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First\\Views\\HocVien\\FormSuaHV.cshtml",
+              "RelativeToolTip": "QuanLySinhVien-Database-First\\Views\\HocVien\\FormSuaHV.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T09:25:06.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\H\u1ECDc T\u1EADp\\L\u1EADp Tr\u00ECnh Windows\\QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First\\Views\\HocVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "QuanLySinhVien-Database-First\\Views\\HocVien\\Index.cshtml",
+              "ToolTip": "C:\\H\u1ECDc T\u1EADp\\L\u1EADp Tr\u00ECnh Windows\\QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First\\Views\\HocVien\\Index.cshtml",
+              "RelativeToolTip": "QuanLySinhVien-Database-First\\Views\\HocVien\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAMwD0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T05:28:24.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HocVienController.cs",
+              "DocumentMoniker": "C:\\H\u1ECDc T\u1EADp\\L\u1EADp Tr\u00ECnh Windows\\QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First\\Controllers\\HocVienController.cs",
+              "RelativeDocumentMoniker": "QuanLySinhVien-Database-First\\Controllers\\HocVienController.cs",
+              "ToolTip": "C:\\H\u1ECDc T\u1EADp\\L\u1EADp Tr\u00ECnh Windows\\QuanLySinhVien-Database-First\\QuanLySinhVien-Database-First\\Controllers\\HocVienController.cs",
+              "RelativeToolTip": "QuanLySinhVien-Database-First\\Controllers\\HocVienController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAowFoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T05:26:41.554Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
